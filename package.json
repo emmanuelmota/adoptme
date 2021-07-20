@@ -1,0 +1,18 @@
+{
+  "name": "Adopt-Me",
+  "version": "1.0.0",
+  "description": "Adopt a pet web app",
+  "main": "app.js",
+  "dependencies": {
+    "parcel": "^1.12.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/index.html"
+  },
+  "author": "Emmanuel Mota",
+  "license": "ISC"
+}

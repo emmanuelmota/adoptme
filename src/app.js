@@ -1,11 +1,8 @@
 
-  const Pet = () => {
-    return React.createElement("div", {}, [
-React.createElement("h2", {}, "Nacho"),
-React.createElement("h3", {}, "Krankers"),
-React.createElement("h3", {}, "Poochi"),
-    ])
-  }
+  import React from 'react';
+  import ReactDOM from 'react-dom';
+
+  import Pet from './Pet.js'
 
   const App = () => {
     return React.createElement (
